@@ -1,14 +1,12 @@
 # jwt-refresh-token
 
-> A complete, tested utility for canonical hashing and digesting of JSON values.
+> Access and refresh token manager with HMAC signatures, refresh rotation, revocation, and expiry validation.
 
-A complete, tested building block for the Retsumdk ecosystem. Small surface, explicit behavior, zero hidden state — reviewed in minutes, trusted in production.
+### What it is
 
-## Features
+JWT access + refresh token manager with HMAC signatures and rotation.
 
-- Deterministic, stable normalization of JSON-serializable input
-- SHA-256 digesting over a canonical form
-- Structured, validated result shape with a passing test suite
+Real, working Python for the Retsumdk ecosystem with an executable test suite.
 
 ## Getting started
 
